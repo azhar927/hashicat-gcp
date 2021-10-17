@@ -1,5 +1,5 @@
 module "network" {
-  source  = "azhar927/network/google"
+  source  = "app.terraform.io/azharmohammed-training/network/google"
   version = "3.4.0"
   network_name = "gaurav-network"
   project_id = "var.project"
